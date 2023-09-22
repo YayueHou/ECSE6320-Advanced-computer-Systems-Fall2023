@@ -43,6 +43,7 @@ lscpu | grep cache
 - The measure and multiplication are both in `miss_measure.c`
 - The result data is in `miss_out.csv`, the plot figure is as follow:
 ![TLB_miss](dTLB_miss.png)
+
 - It could be discovered that, the dTLB miss ratio and runtime also positively correlated.
 
 
