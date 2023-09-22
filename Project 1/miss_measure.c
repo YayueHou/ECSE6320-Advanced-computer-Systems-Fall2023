@@ -151,7 +151,7 @@ int main(int argc, char *argv[]) {
         printf("runtime:%fms\n",time_spent);
     }
 
-    printf("%f %f %.2f%% %f %f %.2f%% %f\n",
+    printf("%f,%f,%.2f,%f,%f,%.2f,%f\n",
             (double)count_misses, (double)(count_hits + count_misses), miss_ratio* 100.0, 
             (double)count_dtlb_load_misses,(double)(count_dtlb_loads + count_dtlb_load_misses), dtlb_miss_ratio* 100.0,
             time_spent);
