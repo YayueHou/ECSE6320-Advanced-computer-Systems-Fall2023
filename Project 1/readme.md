@@ -19,3 +19,5 @@
 
 ## (4) The impact of cache miss ratio on the software speed performance (the software is supposed to execute relatively light computations such as multiplication)
 ## (5) The impact of TLB table miss ratio on the software speed performance (again, the software is supposed to execute relatively light computations such as multiplication)
+
+# Conclusion
