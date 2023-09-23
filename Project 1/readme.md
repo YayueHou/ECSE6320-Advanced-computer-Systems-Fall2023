@@ -11,8 +11,8 @@
 
 ## (3) The trade-off between read/write latency and throughput of the main memory to demonstrate what the queuing theory predicts
 ![](./figures/Trade-off64.png)
-![](./figures/Tradeoff1024.png)
 ![](./figures/Tradeoff256.png)
+![](./figures/Tradeoff1024.png)
 
 
 
