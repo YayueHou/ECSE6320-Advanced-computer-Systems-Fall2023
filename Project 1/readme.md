@@ -1,6 +1,6 @@
 # Cache and Memory Performance Profiling
 ## The read/write latency of cache and main memory when the queue length is zero (i.e., zero queuing delay)
-
+![](./figures/read_latency.png)
 
 
 ## The maximum bandwidth of the main memory under different data access granularity (i.e., 64B, 256B, 1024B) and different read vs. write intensity ratio (i.e., read-only, write-only, 70:30 ratio, 50:50 ratio)
