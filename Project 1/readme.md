@@ -52,4 +52,6 @@ lscpu | grep cache
 
 1) Based on the results of our experimental study, we observe that for a fixed data access granularity of 64B,256B, and 1024B, an increase in the injection delay leads to a decrease in the latency, and the bandwidth decreases accordingly. Moreover, for a fixed data access granularity, an increase in the ratio of write operations leads to a slight increase in latency, but the bandwidth increases when the injection latency is small, while the bandwidth shows a similar pattern when the injection latency is large. These observations lead us to conclude that in memory, the latency of write operations is higher than the latency of read operations.
 2) When the injection delay is chosen to be 0, the Bandwith at this point can be approximated as the Throuput, and through our experiments, we can observe that the latency rises gradually as the write ratio rises, while the Throuput shows a tendency of decreasing first and then increasing.
- 
+
+# Appendix
+
