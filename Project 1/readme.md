@@ -1,15 +1,18 @@
 # Cache and Memory Performance Profiling
-## The read/write latency of cache and main memory when the queue length is zero (i.e., zero queuing delay)
+## Read/write Latency of Cache/Main memory
+- The read latency of cache and main memory when the queue length is zero (i.e., zero queuing delay)
 ![](./figures/read_latency.png)
+- The write latency of cache and main memory when the queue length is zero may be similiar with read, and the write operation itself will be a little bit slower.
 
-
-## The maximum bandwidth of the main memory under different data access granularity (i.e., 64B, 256B, 1024B) and different read vs. write intensity ratio (i.e., read-only, write-only, 70:30 ratio, 50:50 ratio)
+## Bandwidth vs. granularity
+- The maximum bandwidth of the main memory under different data access granularity (i.e., 64B, 256B, 1024B) and different read vs. write intensity ratio (i.e., read-only, write-only, 70:30 ratio, 50:50 ratio)
 ![](./figures/64Bytes.png)
 ![](./figures/256Bytes.png)
 ![](./figures/1024Bytes.png)
 
 
-## The trade-off between read/write latency and throughput of the main memory to demonstrate what the queuing theory predicts
+## Read/Write Latency vs. throughput
+- The trade-off between read/write latency and throughput of the main memory to demonstrate what the queuing theory predicts
 ![](./figures/Trade-off64.png)
 ![](./figures/Tradeoff256.png)
 ![](./figures/Tradeoff1024.png)
