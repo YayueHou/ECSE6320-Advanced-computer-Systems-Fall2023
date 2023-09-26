@@ -1,6 +1,8 @@
 # Cache and Memory Performance Profiling
 ## Read/write Latency of Cache/Main memory
-- The read latency of cache and main memory when the queue length is zero (i.e., zero queuing delay)
+- The `./mlc --idle_latency -b$BUFFER_SIZE can estimate the read latency of zero queue under a particular buffer size.
+![](./zero_queue.png)
+- The read latency and injection is like:
 ![](./figures/read_latency.png)
 - The write latency of cache and main memory when the queue length is zero may be similiar with read, and the write operation itself will be a little bit slower.
 
