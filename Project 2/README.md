@@ -62,7 +62,7 @@ and different data precision float32 and int16.
 
 | **Original Float32(ms)** | **Original Int16(ms)**| **Multi Threads Float32(ms)** | **Multi Threads Int16(ms)** | **SIMD Float32(ms)** | **SIMD Int16(ms)** | **Loop Block 32 Float32(ms)** |**Loop Block 32 Int16(ms)** |
 |-------------|-------------|---------------|------------------------------------|------------------------------------|------------------------------------|-------------------------------------|-------------------------|
-|5606529 |5581535||1||3|1|1|
+|5606529 |5581535||1|1010447|3|1|1|
 
 Finally, the results can be summarised in the following figure:
 
