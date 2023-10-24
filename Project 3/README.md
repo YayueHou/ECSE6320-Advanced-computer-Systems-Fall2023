@@ -15,5 +15,10 @@ throughput) under different combinations of the following parameters:
 
 ### Quick Start
 
+```
+sh run.sh
+```
+### Results
+
 
 
