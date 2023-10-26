@@ -61,4 +61,7 @@ IO Depth = 32
 | 100% read          | 32 KiB     | 15.6k | 488MiB/s (512MB/s)  |58                  |15807            |2046.43                | 500114.05          |1.35%  | 10.11% | 32        |
 | 100% read          | 128 KiB    | 6914  | 864MiB/s (906MB/s)  | 162                 | 16979             | 4625.46            | 886396.72             | 1.64%   | 10.28%  | 32 |
 
-
+### Figures
+![](./results/BSize.png)
+![](./results/wr.png)
+![](./results/IOdepth.png)
